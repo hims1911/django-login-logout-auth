@@ -1,8 +1,11 @@
 # django-login-logout-auth
 
-1)src - project directory 
+1)src - project directory <br>
+
 2)mystie - main login stuffs
----templates - contain htmls
+
+# templates
+ contain htmls
  <ul>
   <li>mysite</li>
   <ol>
