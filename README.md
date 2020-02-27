@@ -4,8 +4,8 @@
 
 2)mystie - main login stuffs
 
-# templates
- contain htmls
+### templates
+ contain html files
  <ul>
   <li>mysite</li>
   <ol>
@@ -19,3 +19,36 @@
   </ol>
   
  </ul>
+ 
+ ### URLS :
+src urls :
+   ```
+   from django.contrib.auth import views as auth_views
+   ```
+   will import the authentication stuff
+   
+   for r'^login/' we used template name : 'mysite/login.html'
+   for r'^logout/' we used template name : 'registration/logged_out.html'
+   
+   including mysite urls with
+   ```
+   url(r'^',include('mysite.urls')
+   ```
+   
+mysite urls :
+
+ for r'^$' it will call home.html
+ for r'^register' it will call register.html
+
+### Forms :
+
+```
+from django import forms
+```
+username = forms.charField(required = true, max_length = 32, lable = "username")
+
+
+   
+
+ 
+ 
