@@ -40,7 +40,7 @@ src urls :
    
 mysite urls :
 
- for r'^$' it will call home.html
+ for r'^$' it will call home.html <br>
  for r'^register' it will call register.html
 
 ### Forms :
