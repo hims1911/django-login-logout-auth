@@ -28,7 +28,8 @@ src urls :
    ```
    will import the authentication stuff
    <br>
-   for r'^login/' we used template name : 'mysite/login.html'
+   for r'^login/' we used template name : 'mysite/login.html' <br>
+   
    for r'^logout/' we used template name : 'registration/logged_out.html'
    <br>
    
